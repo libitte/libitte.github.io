@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "plenv における perlのバージョン切り替え方法"
+title:  "plenv における perlのバージョン切り替え方法とcpanmの導入"
 date:   2014-06-28 23:44:29
 categories: perl plenv
 ---
@@ -26,4 +26,9 @@ plenv における perlのバージョン切り替えは下記2パターンが�
 #=>5.18.2 (set by /Users/XXXX/.plenv/version)
 {% endhighlight %}
 
+現在のperlにcpanmをインストールする方法は下記のとおりです。
+
+{% highlight %}
+% plenv install-cpanm
+{% endhighlight %}
 
