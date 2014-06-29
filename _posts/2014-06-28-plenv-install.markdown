@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "plenv の 導入と perl のインストール方法"
+title:  "plenv の 導入からperlのインストール、切り替え、cpanm導入まで"
 date:   2014-06-28 23:56:56
 categories: perl plenv
 ---
@@ -28,3 +28,31 @@ categories: perl plenv
 # 現在のperlのバージョンを確認
 % plenv version
 ```
+
+plenv における perlのバージョン切り替えは下記2パターンが存在します。
+
+#### ディレクトリごとにPerlのバージョンを切り替える(local)
+
+```
+# 切り替え
+% plenv local 5.18.2
+# version 確認
+% plenv version
+```
+
+#### system全体のPerlのバージョンを切り替える(global)
+
+```
+# 切り替え
+% plenv global 5.18.2
+# version 確認
+% plenv version
+#=>5.18.2 (set by /Users/XXXX/.plenv/version)
+```
+
+現在のperlにcpanmをインストールする方法は下記のとおりです。
+
+```
+% plenv install-cpanm
+```
+
