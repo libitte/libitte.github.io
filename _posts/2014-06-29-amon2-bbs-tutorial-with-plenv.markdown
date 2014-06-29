@@ -62,6 +62,7 @@ CREATE TABLE IF NOT EXISTS entry (
 
 #### 動作確認
 
-http://0:5000/
+[http://0:5000/][http://0:5000/]
 
 [bbs_tutorial]: http://amon.64p.org/bbs_tutorial.html
+[http://0:5000/]: http://0:5000/
