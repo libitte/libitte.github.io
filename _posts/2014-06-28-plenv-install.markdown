@@ -2,7 +2,7 @@
 layout: post
 title:  "plenv の 導入からperlのインストール、切り替え、cpanm導入まで"
 date:   2014-06-28 23:56:56
-categories: perl plenv carton
+categories: perl plenv
 ---
 
 #### plenv のインストール(zshの場合)
